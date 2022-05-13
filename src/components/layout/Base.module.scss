@@ -1,0 +1,27 @@
+@use '/src/styles/_variables' as var;
+
+.base {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  background-color: var.$base-color;
+  color: var.$main-color;
+
+  & > * {
+    padding: var.$padding-md;
+  }
+
+  header {
+    grid-column-start: 1;
+    grid-column-end: 10;
+  }
+
+  main {
+    grid-column-start: 1;
+    grid-column-end: 10;
+  }
+
+  footer {
+    grid-column-start: 1;
+    grid-column-end: 10;
+  }
+}

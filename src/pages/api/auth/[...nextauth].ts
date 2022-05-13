@@ -5,7 +5,7 @@ import { PrismaAdapter } from '@next-auth/prisma-adapter';
 import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcrypt';
 import nodemailer from 'nodemailer';
-import { html, text } from 'src/mails/auth';
+// import { html, text } from 'src/mails/auth';
 
 const prisma = new PrismaClient();
 
