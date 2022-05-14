@@ -1,4 +1,3 @@
-import { useSession, signIn, signOut } from 'next-auth/react';
 import Head from 'src/components/layout/Head';
 import Foot from 'src/components/layout/Foot';
 import styles from './Base.module.scss';
