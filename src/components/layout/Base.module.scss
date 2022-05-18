@@ -3,8 +3,6 @@
 .base {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  background-color: var.$base-color;
-  color: var.$main-color;
 
   & > * {
     padding: var.$padding-md;

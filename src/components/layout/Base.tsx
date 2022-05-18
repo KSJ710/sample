@@ -2,7 +2,7 @@ import Head from 'src/components/layout/Head';
 import Foot from 'src/components/layout/Foot';
 import styles from './Base.module.scss';
 
-const Base = (props): JSX.Element => {
+export default function Base(props): JSX.Element {
   return (
     <div className={styles.base}>
       <header>
@@ -14,6 +14,4 @@ const Base = (props): JSX.Element => {
       </footer>
     </div>
   );
-};
-
-export default Base;
+}
