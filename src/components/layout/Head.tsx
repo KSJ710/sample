@@ -10,12 +10,12 @@ export default function Head(): JSX.Element {
         <h1 className="flex gap-1">
           <p>ロゴロゴ</p>
         </h1>
-        <form action="">
-          <input type="text" name="" id="" />
-        </form>
         <div>マイページ</div>
         <div>カート</div>
       </div>
+      <form action="">
+        <input type="text" name="" id="" />
+      </form>
       <div>
         <ul className="flex">
           <li>カテゴリ</li>
